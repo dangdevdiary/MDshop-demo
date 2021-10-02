@@ -6,6 +6,7 @@
   --header__navbar-height: 30px;
   --header-height: 120px;
   --star-gold-color: #ffce3e;
+  --header__sort-bar-heght: 46px;
   --header-with-search-height: calc(
     var(--header-height) - var(--header__navbar-height)
   );
@@ -19,14 +20,7 @@ html {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
-.grid {
-  width: 1200px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-.grid__full-width {
-  width: 100%;
-}
+
 .grid__row {
   display: flex;
   flex-wrap: wrap;
